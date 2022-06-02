@@ -13,7 +13,7 @@ class Pedidos extends React.Component{
         }
 
         //Extraer el catálogo de roles del backend
-        bd.invokeGET('/pedidos/consultar',data => {  //Entrará acá cuando status = true
+        bd.invokeGET('/pedidos/consultarPedidos',data => {  //Entrará acá cuando status = true
             this.setState({
                 PedidosList : data.data
 
