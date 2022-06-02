@@ -1,0 +1,16 @@
+.stripe-container{
+    display: flex;
+}
+.product-stripe{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stripe-container .card{
+    width: 250px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+    border-radius: 10px;
+    height: 379px;
+}

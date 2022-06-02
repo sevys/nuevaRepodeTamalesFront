@@ -1,0 +1,166 @@
+<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve 'html-loader' in '/home/felipe/WebstormProjects/tamalesfront'
+  ModuleNotFoundError: Module not found: Error: Can't resolve 'html-loader' in '/home/felipe/WebstormProjects/  tamalesfront'
+      at factory.create (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/Compilation.js:20  04:28)
+      at hooks.factorize.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/Normal  ModuleFactory.js:795:13)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:10:1)
+      at hooks.resolve.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/NormalMo  duleFactory.js:275:22)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:9:1)
+      at err (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/NormalModuleFactory.js:538:1  5)
+      at err (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/NormalModuleFactory.js:124:1  1)
+      at resolveRequestArray (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/NormalModule  Factory.js:609:8)
+      at /home/felipe/WebstormProjects/tamalesfront/node_modules/neo-async/async.js:2830:7
+      at done (/home/felipe/WebstormProjects/tamalesfront/node_modules/neo-async/async.js:2925:13)
+      at resolver.resolve (/home/felipe/WebstormProjects/tamalesfront/node_modules/webpack/lib/NormalModuleFac  tory.js:1018:23)
+      at finishWithoutResolve (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Re  solver.js:296:11)
+      at doResolve (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Resolver.js:3  62:15)
+      at hook.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Resolver  .js:410:5)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:16:1)
+      at hook.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Resolver  .js:410:5)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:27:1)
+      at resolver.doResolve (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Desc  riptionFilePlugin.js:87:43)
+      at hook.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Resolver  .js:410:5)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:15:1)
+      at hook.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Resolver  .js:410:5)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:42:1)
+      at resolver.doResolve.allowAlternatives (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhance  d-resolve/lib/ConditionalPlugin.js:53:42)
+      at hook.callAsync (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/Resolver  .js:410:5)
+      at eval (eval at create (/home/felipe/WebstormProjects/tamalesfront/node_modules/tapable/lib/HookCodeFac  tory.js:33:10), <anonymous>:16:1)
+      at iterator (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/forEachBail.js  :16:12)
+      at fs.stat (/home/felipe/WebstormProjects/tamalesfront/node_modules/enhanced-resolve/lib/ModulesInHierac  hicDirectoriesPlugin.js:72:16)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+  
+  - Compilation.js:2004 factory.create
+    [tamalesfront]/[webpack]/lib/Compilation.js:2004:28
+  
+  - NormalModuleFactory.js:795 hooks.factorize.callAsync
+    [tamalesfront]/[webpack]/lib/NormalModuleFactory.js:795:13
+  
+  
+  - NormalModuleFactory.js:275 hooks.resolve.callAsync
+    [tamalesfront]/[webpack]/lib/NormalModuleFactory.js:275:22
+  
+  
+  - NormalModuleFactory.js:538 err
+    [tamalesfront]/[webpack]/lib/NormalModuleFactory.js:538:15
+  
+  - NormalModuleFactory.js:124 err
+    [tamalesfront]/[webpack]/lib/NormalModuleFactory.js:124:11
+  
+  - NormalModuleFactory.js:609 resolveRequestArray
+    [tamalesfront]/[webpack]/lib/NormalModuleFactory.js:609:8
+  
+  - async.js:2830 
+    [tamalesfront]/[neo-async]/async.js:2830:7
+  
+  - async.js:2925 done
+    [tamalesfront]/[neo-async]/async.js:2925:13
+  
+  - NormalModuleFactory.js:1018 resolver.resolve
+    [tamalesfront]/[webpack]/lib/NormalModuleFactory.js:1018:23
+  
+  - Resolver.js:296 finishWithoutResolve
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:296:11
+  
+  - Resolver.js:362 doResolve
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:362:15
+  
+  - Resolver.js:410 hook.callAsync
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:410:5
+  
+  
+  - Resolver.js:410 hook.callAsync
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:410:5
+  
+  
+  - DescriptionFilePlugin.js:87 resolver.doResolve
+    [tamalesfront]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:87:43
+  
+  - Resolver.js:410 hook.callAsync
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:410:5
+  
+  
+  - Resolver.js:410 hook.callAsync
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:410:5
+  
+  
+  - ConditionalPlugin.js:53 resolver.doResolve.allowAlternatives
+    [tamalesfront]/[enhanced-resolve]/lib/ConditionalPlugin.js:53:42
+  
+  - Resolver.js:410 hook.callAsync
+    [tamalesfront]/[enhanced-resolve]/lib/Resolver.js:410:5
+  
+  
+  - forEachBail.js:16 iterator
+    [tamalesfront]/[enhanced-resolve]/lib/forEachBail.js:16:12
+  
+  - ModulesInHierachicDirectoriesPlugin.js:72 fs.stat
+    [tamalesfront]/[enhanced-resolve]/lib/ModulesInHierachicDirectoriesPlugin.js:72:16
+  
+  - next_tick.js:63 process._tickCallback
+    internal/process/next_tick.js:63:19
+  
+  - child-compiler.js:169 childCompiler.runAsChild
+    [tamalesfront]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:557 compile
+    [tamalesfront]/[webpack]/lib/Compiler.js:557:11
+  
+  - Compiler.js:1127 hooks.afterCompile.callAsync.err
+    [tamalesfront]/[webpack]/lib/Compiler.js:1127:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [tamalesfront]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1123 compilation.seal.err
+    [tamalesfront]/[webpack]/lib/Compiler.js:1123:33
+  
+  - Compilation.js:2772 finalCallback
+    [tamalesfront]/[webpack]/lib/Compilation.js:2772:11
+  
+  - Compilation.js:3073 hooks.afterSeal.callAsync.err
+    [tamalesfront]/[webpack]/lib/Compilation.js:3073:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [tamalesfront]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3066 hooks.processAssets.callAsync.err
+    [tamalesfront]/[webpack]/lib/Compilation.js:3066:38
+  
+  
+  - Compilation.js:488 fn
+    [tamalesfront]/[webpack]/lib/Compilation.js:488:9
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [tamalesfront]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3040 cont
+    [tamalesfront]/[webpack]/lib/Compilation.js:3040:34
+  
+  - Compilation.js:3086 createChunkAssets.err
+    [tamalesfront]/[webpack]/lib/Compilation.js:3086:10
+  
+  - async.js:3485 symbolIterator
+    [tamalesfront]/[neo-async]/async.js:3485:9
+  
+  - async.js:3527 done
+    [tamalesfront]/[neo-async]/async.js:3527:9
+  
+  - async.js:2830 
+    [tamalesfront]/[neo-async]/async.js:2830:7
+  
+  - async.js:2865 done
+    [tamalesfront]/[neo-async]/async.js:2865:11
+  
+  - async.js:2818 
+    [tamalesfront]/[neo-async]/async.js:2818:7
+  
+  - Compilation.js:4564 assetCacheItem.store.err
+    [tamalesfront]/[webpack]/lib/Compilation.js:4564:18
+  
+</pre>

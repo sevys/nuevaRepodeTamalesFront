@@ -1,0 +1,24 @@
+
+body{
+    margin: 0em;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Squada One', cursive;
+}
+.nav-link,.header-p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cover {
+    color: white;
+    height: 350px;
+    background-image: url("../img/unotamal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}

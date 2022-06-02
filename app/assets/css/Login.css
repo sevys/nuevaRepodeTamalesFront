@@ -1,0 +1,29 @@
+input{
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 90%;
+}
+.button_login{
+    width: 90%;
+}
+.login-container{
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.container_rith{
+    padding-right: 0;
+    height: 450px;
+    background: rgba(124, 193, 232, 0.78);
+
+}
+.logo{
+    background: #FFFFFF;
+    width: 155px;
+    height: 150px;
+    margin: 0 auto;
+
+}

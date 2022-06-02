@@ -1,0 +1,39 @@
+
+#buttons-align{
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+#CardProductSize{
+    width: 450px;
+
+}
+#CardProductImgSize{
+    width: 400px;
+    height: 450px;
+}
+
+.comments{
+    width: 805px;
+    height: 100px;
+
+}
+#inputReview{
+    width: 400px;
+}
+
+#Review{
+
+    width: 900px;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.label_cantidad {
+    border: 3px solid;
+    background: black;
+    color: white;
+}

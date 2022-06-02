@@ -1,0 +1,21 @@
+.maps{
+    position: relative;
+    padding-top: 56.26%;
+}
+.maps iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.location{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    size: 1cm;
+
+    color: #706B6B;
+}
