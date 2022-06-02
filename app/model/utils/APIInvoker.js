@@ -18,24 +18,6 @@ class APIInvoker {
         this.invoke(url,okCallback,failCallback,params)
     }
 
-    invokePUT(url, body, okCallback, failCallback){
-        let params = {
-            method: 'PUT',
-            headers: this.getAPIHeader(),
-            body: JSON.stringify(body)
-        }
-        this.invoke(url,okCallback,failCallback,params)
-    }
-
-    usersInvokePOST(url,okCallbak, failCallback){
-        let params = {
-            method: 'POST',
-            headers: this.getAPIHeader(),
-        }
-
-        this.invoke(url,okCallbak,failCallback,params)
-    }
-
     invokePOST(url, body, okCallbak, failCallback){
         console.log('body ==>',body)
         let params = {
