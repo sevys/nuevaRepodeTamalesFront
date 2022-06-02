@@ -121,15 +121,5 @@ class ProductDetails extends React.Component{
             </div>
         )
     }
-
-    // comprar(){
-    //
-    //     if (this.state.cantidad === 0){
-    //         this.nombre.innerHTML = 'Agregue un cantidad Valida'
-    //     }else {
-    //
-    //     }
-    // }
-
 }
 export default ProductDetails;
