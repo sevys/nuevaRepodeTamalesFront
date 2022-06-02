@@ -1,11 +1,11 @@
 import React from 'react';
-import '../assets/css/product.css';
-import chipilin from '../assets/img/chipilin.jpg';
-import mole from '../assets/img/mole.jpg';
-import bola from '../assets/img/bola.jpg';
-import cambray from '../assets/img/cambray.jpg';
-import porconf from '../assets/img/porconf.png';
-import porconfig1 from '../assets/img/porconf1.jpg';
+import '../../view/assets/css/product.css';
+import chipilin from '../../view/assets/img/chipilin.jpg';
+import mole from '../../view/assets/img/mole.jpg';
+import bola from '../../view/assets/img/bola.jpg';
+import cambray from '../../view/assets/img/cambray.jpg';
+import porconf from '../../view/assets/img/porconf.png';
+import porconfig1 from '../../view/assets/img/porconf1.jpg';
 import {Link, Redirect} from "react-router-dom";
 
 class StripeProduct extends React.Component{

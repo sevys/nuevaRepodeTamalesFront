@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from "../pages/Home";
-import Login from "../pages/Login";
-import ProductDetails from "../pages/ProductDetails";
-import Pedidos from '../pages/Pedidos';
-import Maps from '../components/Maps';
-import Comprar from '../components/Comprar';
-import Modal from "../components/Modal";
+import Home from "../../view/pages/Home";
+import Login from "../../view/pages/Login";
+import ProductDetails from "../../view/pages/ProductDetails";
+import Pedidos from '../../view/pages/Pedidos';
+import Maps from './Maps';
+import Comprar from './Comprar';
+import Modal from "./Modal";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 
 

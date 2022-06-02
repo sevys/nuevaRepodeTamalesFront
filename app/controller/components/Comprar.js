@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import '../assets/css/Compra.css'
+import '../../view/assets/css/Compra.css'
 import update from "immutability-helper";
-import APIInvoker from "../utils/APIInvoker";
+import APIInvoker from "../../model/utils/APIInvoker";
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import local from '../assets/img/local.jpg';
-import fabrica from '../assets/img/fabrica.jpeg';
-import receta from '../assets/img/receta.jpg';
-import vector from '../assets/img/vector.svg';
-import '../assets/css/objetoCard.css';
+import local from '../../view/assets/img/local.jpg';
+import fabrica from '../../view/assets/img/fabrica.jpeg';
+import receta from '../../view/assets/img/receta.jpg';
+import vector from '../../view/assets/img/vector.svg';
+import '../../view/assets/css/objetoCard.css';
 import * as url from "url";
 
 
@@ -65,7 +65,7 @@ class ObjetivoCard extends React.Component{
                                     <h3>¡Alegra tu dia comiendo tamales!</h3>
                                     <p className="card-p">Ordena tus tamales y llega a buscarlo en el lugar de entrega,
                                         o si no busca el local fisico de TamalesFc para realizar su compra</p>
-                                    <a className="link_mapa" href="#">ver mapa</a>
+                                    <a className="link_mapa" href="app/controller/components/objetivoCard#">ver mapa</a>
                                 </div>
                             </div>
                     </div>

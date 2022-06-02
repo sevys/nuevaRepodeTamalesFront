@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/footer.css';
+import '../../view/assets/css/footer.css';
 
 class Foteer extends React.Component{
     constructor(props) {
@@ -22,23 +22,23 @@ class Foteer extends React.Component{
                                 <h5>Mis redes</h5>
                                 <ul className="list-inline">
                                     <li>
-                                        <a target="_blank" href="#" className="btn-social btn-outline">Facebook<i
+                                        <a target="_blank" href="app/controller/components/Footer#" className="btn-social btn-outline">Facebook<i
                                             className="fa fa-fw fa-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#" className="btn-social btn-outline">Email<i
+                                        <a target="_blank" href="app/controller/components/Footer#" className="btn-social btn-outline">Email<i
                                             className="fa fa-fw fa-google-plus"></i></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#" className="btn-social btn-outline">Twitter<i
+                                        <a target="_blank" href="app/controller/components/Footer#" className="btn-social btn-outline">Twitter<i
                                             className="fa fa-fw fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#" className="btn-social btn-outline">Linkedin<i
+                                        <a target="_blank" href="app/controller/components/Footer#" className="btn-social btn-outline">Linkedin<i
                                             className="fa fa-fw fa-linkedin"></i></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#" className="btn-social btn-outline">Otro<i
+                                        <a target="_blank" href="app/controller/components/Footer#" className="btn-social btn-outline">Otro<i
                                             className="fa fa-fw fa-dribbble"></i></a>
                                     </li>
                                 </ul>

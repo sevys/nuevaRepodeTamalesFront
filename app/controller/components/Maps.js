@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/maps.css';
+import '../../view/assets/css/maps.css';
 
 class Maps extends React.Component{
     constructor(props) {
