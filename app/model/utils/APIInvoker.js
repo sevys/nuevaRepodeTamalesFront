@@ -1,4 +1,4 @@
-const configuration = require('../../configServer')
+const configuration = require('../../../configServer')
 const debug = configuration.debugmode
 
 class APIInvoker {

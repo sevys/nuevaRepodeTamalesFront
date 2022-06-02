@@ -1,7 +1,7 @@
 import React from 'react';
 import update from 'immutability-helper';
 import '../assets/css/Login.css';
-import APIInvoker from "../utils/APIInvoker";
+import APIInvoker from "../../model/utils/APIInvoker";
 import vector from "../assets/img/vector.svg";
 
 class Login extends React.Component{
