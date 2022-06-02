@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Footer from "../components/Footer";
-import bd from "../utils/APIInvoker";
+import Footer from "../../controller/components/Footer";
+import bd from "../../model/utils/APIInvoker";
 
 class Pedidos extends React.Component{
     constructor(props) {
@@ -13,7 +13,7 @@ class Pedidos extends React.Component{
         }
 
         //Extraer el catálogo de roles del backend
-        bd.invokeGET('/pedidos/consultar',data => {  //Entrará acá cuando status = true
+        bd.invokeGET('/pedidos/consultarPedidos',data => {  //Entrará acá cuando status = true
             this.setState({
                 PedidosList : data.data
 
@@ -30,20 +30,20 @@ class Pedidos extends React.Component{
             <div>
                 <div>
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <a className="navbar-brand" href="#">LOGO</a>
+                        <a className="navbar-brand" href="app/view/pages/Pedidos#">LOGO</a>
 
                         <ul className="nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Inicio</a>
+                                <a className="nav-link" href="app/view/pages/Pedidos#">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Productos</a>
+                                <a className="nav-link" href="app/view/pages/Pedidos#">Productos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Ubicación</a>
+                                <a className="nav-link " href="app/view/pages/Pedidos#">Ubicación</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Pedidos</a>
+                                <a className="nav-link " href="app/view/pages/Pedidos#">Pedidos</a>
                             </li>
 
                         </ul>

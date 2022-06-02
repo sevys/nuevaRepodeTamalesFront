@@ -1,5 +1,5 @@
 import React from 'react';
-import   '../assets/css/Header.css';
+import   '../../view/assets/css/Header.css';
 import {Link} from 'react-router-dom';
 
 
@@ -14,24 +14,24 @@ class Header extends  React.Component{
             <div>
                 <header>
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                            <a className="navbar-brand" href="#">LOGO</a>
+                            <a className="navbar-brand" href="app/controller/components/Header#">LOGO</a>
 
                                 <ul className="nav">
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Inicio</a>
+                                        <a className="nav-link" href="app/controller/components/Header#">Inicio</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Productos</a>
+                                        <a className="nav-link" href="app/controller/components/Header#">Productos</a>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/Mapa">
-                                            <a className="nav-link " href="#">Ubicación</a>
+                                            <a className="nav-link " href="app/controller/components/Header#">Ubicación</a>
                                         </Link>
 
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/Pedidos">
-                                            <a className="nav-link " href="#">Pedidos</a>
+                                            <a className="nav-link " href="app/controller/components/Header#">Pedidos</a>
                                         </Link>
                                     </li>
 

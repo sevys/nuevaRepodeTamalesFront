@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../../controller/components/Footer";
 import '../assets/css/ProductDetails.css';
 
 class ProductDetails extends React.Component{
@@ -22,20 +22,20 @@ class ProductDetails extends React.Component{
             <div>
                 <div>
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <a className="navbar-brand" href="#">LOGO</a>
+                        <a className="navbar-brand" href="app/view/pages/ProductDetails#">LOGO</a>
 
                         <ul className="nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Inicio</a>
+                                <a className="nav-link" href="app/view/pages/ProductDetails#">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Productos</a>
+                                <a className="nav-link" href="app/view/pages/ProductDetails#">Productos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Ubicación</a>
+                                <a className="nav-link " href="app/view/pages/ProductDetails#">Ubicación</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Pedidos</a>
+                                <a className="nav-link " href="app/view/pages/ProductDetails#">Pedidos</a>
                             </li>
 
                         </ul>
